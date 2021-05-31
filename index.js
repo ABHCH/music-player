@@ -50,7 +50,8 @@ const pauseMusic = () =>{
     isPlaying = false;
     music.pause();
     play.classList.replace("fa-pause", "fa-play");
-    myImage.classList.add("circle");
+
+
 }
 
 play.addEventListener("click",() =>{
